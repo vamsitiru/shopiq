@@ -56,7 +56,7 @@ Rules:
 
 // ---------- Ollama ----------
 
-async function callOllama(prompt, onChunk) {
+async function callOllama(prompt) {
   const response = await fetch("http://localhost:11434/api/generate", {
     method: "POST",
     body: JSON.stringify({
@@ -105,7 +105,7 @@ function parseResponse(text) {
 // ---------- Main Function ----------
 
 async function generateExplanation(result, options = {}) {
-  const { provider = "ollama", maxAlternatives = 3, onChunk } = options;
+  const { provider = "ollama", maxAlternatives = 3 } = options;
 
   const winner = result.winner;
   const alternatives = result.ranked
@@ -117,8 +117,10 @@ async function generateExplanation(result, options = {}) {
   let llmOutput;
 
   try {
-    llmOutput = await callOllama(prompt, onChunk)
-        
+    console.log("Triggering LLM explanation...");
+    llmOutput = await callOllama(prompt)
+    console.log("Received LLM explanation.");
+
   } catch (err) {
     return {
       ...result,

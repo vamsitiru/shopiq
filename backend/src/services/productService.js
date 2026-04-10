@@ -24,7 +24,7 @@ function normalizeSources(sources) {
   return DEFAULT_SOURCES;
 }
 
-export async function searchProducts(query, sources, onStreamChunk) {
+export async function searchProducts(query, sources) {
   const normalizedSources = normalizeSources(sources);
   const requests = normalizedSources.map((source) => {
     const provider = providers[source];
@@ -70,15 +70,13 @@ export async function searchProducts(query, sources, onStreamChunk) {
 
   // 5. LLM Decision
   result = await applyLLMDecision(result, { 
-    provider: 'ollama',
-    onChunk: onStreamChunk ? (chunk) => onStreamChunk({ type: 'decision_chunk', chunk }) : null
+    provider: 'ollama'
   });
 
   // 6. LLM Explanation
   result = await generateExplanation(result, { 
     provider: "ollama", 
-    maxAlternatives: 3,
-    onChunk: onStreamChunk ? (chunk) => onStreamChunk({ type: 'explanation_chunk', chunk }) : null
+    maxAlternatives: 3
   });
 
   return result;

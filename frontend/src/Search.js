@@ -25,7 +25,7 @@ function Search() {
 
   return (
     <div className="Search">
-      <h1>ShopIQ - eCommerce Product Search</h1>
+      <h1>ShopIQ - eCommerce Smart Search</h1>
 
       <div className="search-controls">
         <input

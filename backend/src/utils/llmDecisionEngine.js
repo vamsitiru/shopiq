@@ -68,7 +68,7 @@ function sanitizeProduct(p) {
 
 // ---------- Ollama (Local LLM) ----------
 
-async function callOllama(prompt, onChunk) {
+async function callOllama(prompt) {
   const response = await fetch("http://localhost:11434/api/generate", {
     method: "POST",
     body: JSON.stringify({
@@ -100,7 +100,7 @@ function parseLLMResponse(text) {
 // ---------- Main Function ----------
 
 async function applyLLMDecision(result, options = {}) {
-  const { provider = "ollama", onChunk } = options;
+  const { provider = "ollama" } = options;
 
   const { ranked } = result;
   const top = ranked[0];
@@ -118,7 +118,9 @@ async function applyLLMDecision(result, options = {}) {
   let llmResult;
 
   try {
-    llmResult = await callOllama(prompt, onChunk);
+    console.log("Triggering LLM decision...");
+    llmResult = await callOllama(prompt);
+    console.log("Received LLM decision.");
   } catch (err) {
     return {
       ...result,
