@@ -1,0 +1,1923 @@
+{
+  "data": {
+    "amazonProductSearchResults": {
+      "availableRefinements": [
+        {
+          "name": "prime",
+          "options": [
+            {
+              "name": "Free Shipping by Amazon"
+            }
+          ]
+        },
+        {
+          "name": "reviews",
+          "options": [
+            {
+              "name": "4 Stars"
+            }
+          ]
+        },
+        {
+          "name": "brand",
+          "options": [
+            {
+              "name": "HP"
+            },
+            {
+              "name": "Lenovo"
+            },
+            {
+              "name": "Dell"
+            },
+            {
+              "name": "Apple"
+            },
+            {
+              "name": "ASUS"
+            },
+            {
+              "name": "acer"
+            },
+            {
+              "name": "Microsoft"
+            },
+            {
+              "name": "SamsungmsiAlienwareRazerLGGIGABYTECHUWIGetacTOSHIBAPanasonicjumperGatewayEluktronicsdynabookHIDevolutionXOTICPCOMENCompaqLatitudeMAINGEARist computersNIMOKAIGERRAOCEXCaliberPCOemgenuine"
+            },
+            {
+              "name": "Samsung"
+            },
+            {
+              "name": "msi"
+            },
+            {
+              "name": "Alienware"
+            },
+            {
+              "name": "Razer"
+            },
+            {
+              "name": "LG"
+            },
+            {
+              "name": "GIGABYTE"
+            },
+            {
+              "name": "CHUWI"
+            },
+            {
+              "name": "Getac"
+            },
+            {
+              "name": "TOSHIBA"
+            },
+            {
+              "name": "Panasonic"
+            },
+            {
+              "name": "jumper"
+            },
+            {
+              "name": "Gateway"
+            },
+            {
+              "name": "Eluktronics"
+            },
+            {
+              "name": "dynabook"
+            },
+            {
+              "name": "HIDevolution"
+            },
+            {
+              "name": "XOTICPC"
+            },
+            {
+              "name": "OMEN"
+            },
+            {
+              "name": "Compaq"
+            },
+            {
+              "name": "Latitude"
+            },
+            {
+              "name": "MAINGEAR"
+            },
+            {
+              "name": "ist computers"
+            },
+            {
+              "name": "NIMO"
+            },
+            {
+              "name": "KAIGERR"
+            },
+            {
+              "name": "AOC"
+            },
+            {
+              "name": "EXCaliberPC"
+            },
+            {
+              "name": "Oemgenuine"
+            }
+          ]
+        },
+        {
+          "name": "eligible_for_free_shipping",
+          "options": [
+            {
+              "name": "Free Shipping by Amazon"
+            }
+          ]
+        },
+        {
+          "name": "ram_size",
+          "options": [
+            {
+              "name": "128 GB"
+            },
+            {
+              "name": "64 GB"
+            },
+            {
+              "name": "32 GB"
+            },
+            {
+              "name": "16 GB"
+            },
+            {
+              "name": "8 GB"
+            },
+            {
+              "name": "4 GB"
+            },
+            {
+              "name": "2 GB"
+            }
+          ]
+        },
+        {
+          "name": "screen_size",
+          "options": [
+            {
+              "name": "Up to 13.9 in"
+            },
+            {
+              "name": "14 to 14.9 in"
+            },
+            {
+              "name": "15 to 15.9 in"
+            },
+            {
+              "name": "16 in & above"
+            },
+            {
+              "name": "Up to 34 cm"
+            },
+            {
+              "name": "35 to 39 cm"
+            },
+            {
+              "name": "40 cm & above"
+            }
+          ]
+        },
+        {
+          "name": "deals_discounts",
+          "options": [
+            {
+              "name": "All Discounts"
+            },
+            {
+              "name": "Today's Deals"
+            }
+          ]
+        },
+        {
+          "name": "brands",
+          "options": [
+            {
+              "name": "HP"
+            },
+            {
+              "name": "Lenovo"
+            },
+            {
+              "name": "Dell"
+            },
+            {
+              "name": "Apple"
+            },
+            {
+              "name": "ASUS"
+            },
+            {
+              "name": "acer"
+            },
+            {
+              "name": "Microsoft"
+            },
+            {
+              "name": "SamsungmsiAlienwareRazerLGGIGABYTECHUWIGetacTOSHIBAPanasonicjumperGatewayEluktronicsdynabookHIDevolutionXOTICPCOMENCompaqLatitudeMAINGEARist computersNIMOKAIGERRAOCEXCaliberPCOemgenuine"
+            },
+            {
+              "name": "Samsung"
+            },
+            {
+              "name": "msi"
+            },
+            {
+              "name": "Alienware"
+            },
+            {
+              "name": "Razer"
+            },
+            {
+              "name": "LG"
+            },
+            {
+              "name": "GIGABYTE"
+            },
+            {
+              "name": "CHUWI"
+            },
+            {
+              "name": "Getac"
+            },
+            {
+              "name": "TOSHIBA"
+            },
+            {
+              "name": "Panasonic"
+            },
+            {
+              "name": "jumper"
+            },
+            {
+              "name": "Gateway"
+            },
+            {
+              "name": "Eluktronics"
+            },
+            {
+              "name": "dynabook"
+            },
+            {
+              "name": "HIDevolution"
+            },
+            {
+              "name": "XOTICPC"
+            },
+            {
+              "name": "OMEN"
+            },
+            {
+              "name": "Compaq"
+            },
+            {
+              "name": "Latitude"
+            },
+            {
+              "name": "MAINGEAR"
+            },
+            {
+              "name": "ist computers"
+            },
+            {
+              "name": "NIMO"
+            },
+            {
+              "name": "KAIGERR"
+            },
+            {
+              "name": "AOC"
+            },
+            {
+              "name": "EXCaliberPC"
+            },
+            {
+              "name": "Oemgenuine"
+            }
+          ]
+        },
+        {
+          "name": "customer_reviews",
+          "options": [
+            {
+              "name": "4 Stars"
+            }
+          ]
+        },
+        {
+          "name": "hard_drive_size",
+          "options": [
+            {
+              "name": "4 TB & Above"
+            },
+            {
+              "name": "3 TB"
+            },
+            {
+              "name": "2 TB"
+            },
+            {
+              "name": "1.5 TB"
+            },
+            {
+              "name": "1 TB"
+            },
+            {
+              "name": "501 to 999 GB"
+            },
+            {
+              "name": "321 to 500 GB"
+            },
+            {
+              "name": "121 to 320 GB"
+            },
+            {
+              "name": "81 to 120 GB"
+            },
+            {
+              "name": "Up to 80 GB"
+            }
+          ]
+        },
+        {
+          "name": "operating_system",
+          "options": [
+            {
+              "name": "Windows 11 Pro"
+            },
+            {
+              "name": "Windows 11 Home"
+            },
+            {
+              "name": "Windows 10 Pro"
+            },
+            {
+              "name": "Windows 11 in S mode"
+            },
+            {
+              "name": "Windows 10 Home"
+            },
+            {
+              "name": "Windows 10 in S mode"
+            },
+            {
+              "name": "Windows Legacy System"
+            },
+            {
+              "name": "Mac OS"
+            },
+            {
+              "name": "Chrome OS"
+            },
+            {
+              "name": "Linux"
+            }
+          ]
+        },
+        {
+          "name": "condition",
+          "options": [
+            {
+              "name": "New"
+            },
+            {
+              "name": "Renewed"
+            },
+            {
+              "name": "Used"
+            }
+          ]
+        },
+        {
+          "name": "cpu_manufacturer",
+          "options": [
+            {
+              "name": "AMD"
+            },
+            {
+              "name": "Apple"
+            },
+            {
+              "name": "ARM"
+            },
+            {
+              "name": "Intel"
+            },
+            {
+              "name": "MediaTek"
+            },
+            {
+              "name": "NVIDIA"
+            },
+            {
+              "name": "Qualcomm"
+            },
+            {
+              "name": "VIA"
+            }
+          ]
+        },
+        {
+          "name": "processor_speed",
+          "options": [
+            {
+              "name": "1 to 1.59 GHz"
+            },
+            {
+              "name": "1.60 to 1.79 GHz"
+            },
+            {
+              "name": "1.80 to 1.99 GHz"
+            },
+            {
+              "name": "2.00 to 2.49 GHz"
+            },
+            {
+              "name": "2.50 to 2.99 GHz"
+            },
+            {
+              "name": "3.00 to 3.49 GHz"
+            },
+            {
+              "name": "3.50 to 3.99 GHz"
+            },
+            {
+              "name": "4.0 GHz & Above"
+            }
+          ]
+        },
+        {
+          "name": "processor_count",
+          "options": [
+            {
+              "name": "24"
+            },
+            {
+              "name": "20"
+            },
+            {
+              "name": "18"
+            },
+            {
+              "name": "16"
+            },
+            {
+              "name": "14"
+            },
+            {
+              "name": "12"
+            },
+            {
+              "name": "10"
+            },
+            {
+              "name": "865421"
+            },
+            {
+              "name": "8"
+            },
+            {
+              "name": "6"
+            },
+            {
+              "name": "5"
+            },
+            {
+              "name": "4"
+            },
+            {
+              "name": "2"
+            },
+            {
+              "name": "1"
+            }
+          ]
+        },
+        {
+          "name": "hard_drive_type",
+          "options": [
+            {
+              "name": "Emmc"
+            },
+            {
+              "name": "HDD"
+            },
+            {
+              "name": "SSD"
+            },
+            {
+              "name": "SSHD"
+            }
+          ]
+        },
+        {
+          "name": "input",
+          "options": [
+            {
+              "name": "Touch Bar"
+            },
+            {
+              "name": "Touch Pad"
+            },
+            {
+              "name": "Touchscreen"
+            },
+            {
+              "name": "Touchscreen with Stylus Support"
+            }
+          ]
+        },
+        {
+          "name": "connectivity",
+          "options": [
+            {
+              "name": "Wi-Fi"
+            },
+            {
+              "name": "Bluetooth"
+            },
+            {
+              "name": "USB"
+            },
+            {
+              "name": "Ethernet"
+            },
+            {
+              "name": "HDMI"
+            }
+          ]
+        },
+        {
+          "name": "display_resolution",
+          "options": [
+            {
+              "name": "1080i"
+            },
+            {
+              "name": "1080p"
+            },
+            {
+              "name": "4K"
+            },
+            {
+              "name": "720p"
+            }
+          ]
+        },
+        {
+          "name": "wireless_type",
+          "options": [
+            {
+              "name": "Bluetooth"
+            },
+            {
+              "name": "Infrared"
+            },
+            {
+              "name": "NFC"
+            },
+            {
+              "name": "Wi-Fi"
+            }
+          ]
+        },
+        {
+          "name": "special_features",
+          "options": [
+            {
+              "name": "HD Audio"
+            },
+            {
+              "name": "Backlit Keyboard"
+            },
+            {
+              "name": "Numeric Keypad"
+            },
+            {
+              "name": "Anti Glare Coating"
+            },
+            {
+              "name": "Fingerprint Reader"
+            },
+            {
+              "name": "Memory Card Slot"
+            },
+            {
+              "name": "Spill Resistant"
+            },
+            {
+              "name": "Support StylusLightweightTrackPoint"
+            },
+            {
+              "name": "Support Stylus"
+            },
+            {
+              "name": "Lightweight"
+            },
+            {
+              "name": "TrackPoint"
+            }
+          ]
+        },
+        {
+          "name": "graphics_memory",
+          "options": [
+            {
+              "name": "8 GB & Above"
+            },
+            {
+              "name": "6 to 7 GB"
+            },
+            {
+              "name": "4 to 5 GB"
+            },
+            {
+              "name": "2 to 3 GB"
+            },
+            {
+              "name": "Up to 1 GB"
+            }
+          ]
+        },
+        {
+          "name": "ram_technology",
+          "options": [
+            {
+              "name": "DDR2"
+            },
+            {
+              "name": "DDR3"
+            },
+            {
+              "name": "DDR4"
+            },
+            {
+              "name": "DDR5"
+            },
+            {
+              "name": "LPDDR3"
+            },
+            {
+              "name": "LPDDR4"
+            },
+            {
+              "name": "LPDDR4X"
+            },
+            {
+              "name": "LPDDR5"
+            }
+          ]
+        },
+        {
+          "name": "weight",
+          "options": [
+            {
+              "name": "Up to 3 Pounds"
+            },
+            {
+              "name": "3 to 3.9 Pounds"
+            },
+            {
+              "name": "4 to 4.9 Pounds"
+            },
+            {
+              "name": "5 to 5.9 Pounds"
+            },
+            {
+              "name": "6 to 6.9 Pounds"
+            },
+            {
+              "name": "7 to 7.9 Pounds"
+            },
+            {
+              "name": "8 Pounds & Above"
+            }
+          ]
+        },
+        {
+          "name": "battery_life",
+          "options": [
+            {
+              "name": "Up to 6.9 h"
+            },
+            {
+              "name": "7 to 7.9 h"
+            },
+            {
+              "name": "8 to 8.9 h"
+            },
+            {
+              "name": "9 h & above"
+            }
+          ]
+        },
+        {
+          "name": "hardware_interface",
+          "options": [
+            {
+              "name": "USB"
+            },
+            {
+              "name": "HDMI"
+            },
+            {
+              "name": "Bluetooth"
+            },
+            {
+              "name": "3.5mm Audio"
+            },
+            {
+              "name": "802.11 ac/b/g/n"
+            },
+            {
+              "name": "802.11 b/g/n"
+            },
+            {
+              "name": "Bluetooth 5"
+            },
+            {
+              "name": "DisplayPortDVD-RWEthernetExpress CardHeadphoneInfraredLightningMedia CardMiCardMicro USB 2.0 Type BMicro USB Type AMicro USB Type BMicroSDmini HDMIMini-DisplayPortPCIPCIe x4SDHCSDXCSecure Digital CardSolid State DriveThunderboltThunderbolt 4TransFlashUSB 2.0 Type AUSB 3.0 Type AUSB 3.0 Type CUSB 3.1 Type AUSB 3.1 Type CUSB 3.2 Gen 1USB 3.2 Gen 2USB 3.2 Gen 2×2VGA"
+            },
+            {
+              "name": "DisplayPort"
+            },
+            {
+              "name": "DVD-RW"
+            },
+            {
+              "name": "Ethernet"
+            },
+            {
+              "name": "Express Card"
+            },
+            {
+              "name": "Headphone"
+            },
+            {
+              "name": "Infrared"
+            },
+            {
+              "name": "Lightning"
+            },
+            {
+              "name": "Media Card"
+            },
+            {
+              "name": "MiCard"
+            },
+            {
+              "name": "Micro USB 2.0 Type B"
+            },
+            {
+              "name": "Micro USB Type A"
+            },
+            {
+              "name": "Micro USB Type B"
+            },
+            {
+              "name": "MicroSD"
+            },
+            {
+              "name": "mini HDMI"
+            },
+            {
+              "name": "Mini-DisplayPort"
+            },
+            {
+              "name": "PCI"
+            },
+            {
+              "name": "PCIe x4"
+            },
+            {
+              "name": "SDHC"
+            },
+            {
+              "name": "SDXC"
+            },
+            {
+              "name": "Secure Digital Card"
+            },
+            {
+              "name": "Solid State Drive"
+            },
+            {
+              "name": "Thunderbolt"
+            },
+            {
+              "name": "Thunderbolt 4"
+            },
+            {
+              "name": "TransFlash"
+            },
+            {
+              "name": "USB 2.0 Type A"
+            },
+            {
+              "name": "USB 3.0 Type A"
+            },
+            {
+              "name": "USB 3.0 Type C"
+            },
+            {
+              "name": "USB 3.1 Type A"
+            },
+            {
+              "name": "USB 3.1 Type C"
+            },
+            {
+              "name": "USB 3.2 Gen 1"
+            },
+            {
+              "name": "USB 3.2 Gen 2"
+            },
+            {
+              "name": "USB 3.2 Gen 2×2"
+            },
+            {
+              "name": "VGA"
+            }
+          ]
+        },
+        {
+          "name": "usb_30_ports",
+          "options": [
+            {
+              "name": "5 or More"
+            },
+            {
+              "name": "4"
+            },
+            {
+              "name": "3"
+            },
+            {
+              "name": "2"
+            },
+            {
+              "name": "1"
+            },
+            {
+              "name": "None"
+            }
+          ]
+        },
+        {
+          "name": "display_type",
+          "options": [
+            {
+              "name": "Amoled"
+            },
+            {
+              "name": "LCD"
+            },
+            {
+              "name": "LED"
+            },
+            {
+              "name": "OLED"
+            }
+          ]
+        },
+        {
+          "name": "flash_size",
+          "options": [
+            {
+              "name": "500 GB & Above"
+            },
+            {
+              "name": "250 to 499 GB"
+            },
+            {
+              "name": "120 to 249 GB"
+            },
+            {
+              "name": "64 to 119 GB"
+            },
+            {
+              "name": "32 to 63 GB"
+            },
+            {
+              "name": "17 to 31 GB"
+            },
+            {
+              "name": "8 to 16 GB"
+            },
+            {
+              "name": "7 GB & Under"
+            }
+          ]
+        },
+        {
+          "name": "top_brands",
+          "options": [
+            {
+              "name": "Top Brands"
+            }
+          ]
+        },
+        {
+          "name": "video_output",
+          "options": [
+            {
+              "name": "HDMI"
+            },
+            {
+              "name": "DisplayPort"
+            },
+            {
+              "name": "VGA"
+            }
+          ]
+        },
+        {
+          "name": "seller",
+          "options": [
+            {
+              "name": "Oydisen Computer"
+            },
+            {
+              "name": "Epower Solutions"
+            },
+            {
+              "name": "Ivy Bridge StoreKailone TechDASHOTOTech OntrendRocket Computer"
+            },
+            {
+              "name": "Ivy Bridge Store"
+            },
+            {
+              "name": "Kailone Tech"
+            },
+            {
+              "name": "DASHOTO"
+            },
+            {
+              "name": "Tech Ontrend"
+            },
+            {
+              "name": "Rocket Computer"
+            }
+          ]
+        },
+        {
+          "name": "memory_clock_speed",
+          "options": [
+            {
+              "name": "Up to 2.9 GHz"
+            },
+            {
+              "name": "3 to 3.9 GHz"
+            },
+            {
+              "name": "4 to 4.9 GHz"
+            },
+            {
+              "name": "5 GHz & above"
+            }
+          ]
+        },
+        {
+          "name": "front_camera_resolution",
+          "options": [
+            {
+              "name": "3 MP & above"
+            },
+            {
+              "name": "2 to 2.9 MP"
+            },
+            {
+              "name": "1 to 1.9 MP"
+            },
+            {
+              "name": "Up to 1 MP"
+            }
+          ]
+        },
+        {
+          "name": "wi-fi_generation",
+          "options": [
+            {
+              "name": "Wi-Fi 6"
+            },
+            {
+              "name": "Wi-Fi 6E"
+            },
+            {
+              "name": "Wi-Fi 7"
+            },
+            {
+              "name": "Wi-Fi 4"
+            },
+            {
+              "name": "Wi-Fi 5"
+            }
+          ]
+        },
+        {
+          "name": "number_of_cells",
+          "options": [
+            {
+              "name": "1"
+            },
+            {
+              "name": "2"
+            },
+            {
+              "name": "3"
+            },
+            {
+              "name": "4 & above"
+            }
+          ]
+        },
+        {
+          "name": "voltage",
+          "options": [
+            {
+              "name": "Up to 4 V"
+            },
+            {
+              "name": "5 to 14 V"
+            },
+            {
+              "name": "15 to 19 V"
+            },
+            {
+              "name": "20 V & above"
+            }
+          ]
+        },
+        {
+          "name": "keyboard_type",
+          "options": [
+            {
+              "name": "Backlit"
+            },
+            {
+              "name": "Chiclet"
+            },
+            {
+              "name": "Ergonomic"
+            },
+            {
+              "name": "Gaming"
+            },
+            {
+              "name": "Mechanical"
+            }
+          ]
+        },
+        {
+          "name": "average_standby_battery_life",
+          "options": [
+            {
+              "name": "11 h & above"
+            },
+            {
+              "name": "9 to 10.9 h"
+            },
+            {
+              "name": "7 to 8.9 h"
+            },
+            {
+              "name": "Up to 6.9 h"
+            }
+          ]
+        },
+        {
+          "name": "memory_slots",
+          "options": [
+            {
+              "name": "1"
+            },
+            {
+              "name": "2"
+            },
+            {
+              "name": "3"
+            },
+            {
+              "name": "4"
+            }
+          ]
+        },
+        {
+          "name": "model_year",
+          "options": [
+            {
+              "name": "Up to 2020"
+            },
+            {
+              "name": "2021"
+            },
+            {
+              "name": "2022"
+            },
+            {
+              "name": "2023"
+            },
+            {
+              "name": "2024"
+            }
+          ]
+        },
+        {
+          "name": "sustainability_features",
+          "options": [
+            {
+              "name": "Any Feature"
+            },
+            {
+              "name": "Carbon Impact"
+            },
+            {
+              "name": "Energy EfficiencyManufacturing PracticesRecycled MaterialsSafer ChemicalsWorker Wellbeing"
+            },
+            {
+              "name": "Energy Efficiency"
+            },
+            {
+              "name": "Manufacturing Practices"
+            },
+            {
+              "name": "Recycled Materials"
+            },
+            {
+              "name": "Safer Chemicals"
+            },
+            {
+              "name": "Worker Wellbeing"
+            }
+          ]
+        },
+        {
+          "name": "audio_output_type",
+          "options": [
+            {
+              "name": "Headphones"
+            },
+            {
+              "name": "Speakers"
+            }
+          ]
+        },
+        {
+          "name": "gpu_manufacturer",
+          "options": [
+            {
+              "name": "AMD"
+            },
+            {
+              "name": "Apple"
+            },
+            {
+              "name": "ARM"
+            },
+            {
+              "name": "Intel"
+            },
+            {
+              "name": "MediaTek"
+            },
+            {
+              "name": "NVIDIA"
+            },
+            {
+              "name": "PowerVR"
+            },
+            {
+              "name": "Qualcomm"
+            },
+            {
+              "name": "Qualcomm"
+            }
+          ]
+        },
+        {
+          "name": "display_maximum_resolution",
+          "options": [
+            {
+              "name": "1366 x 768"
+            },
+            {
+              "name": "1920 x 1080"
+            },
+            {
+              "name": "2560 x 1440"
+            },
+            {
+              "name": "2560 x 1600"
+            },
+            {
+              "name": "3024 x 1964"
+            },
+            {
+              "name": "3456 x 2234"
+            },
+            {
+              "name": "3840 x 2160"
+            }
+          ]
+        },
+        {
+          "name": "ram_type",
+          "options": [
+            {
+              "name": "DDR DRAM"
+            },
+            {
+              "name": "DDR SDRAM"
+            },
+            {
+              "name": "DDR2 SDRAM"
+            },
+            {
+              "name": "DDR3 SDRAM"
+            },
+            {
+              "name": "DDR4 SDRAM"
+            },
+            {
+              "name": "DDR5 RAM"
+            },
+            {
+              "name": "DIMM"
+            },
+            {
+              "name": "SDRAMSODIMM"
+            },
+            {
+              "name": "SDRAM"
+            },
+            {
+              "name": "SODIMM"
+            }
+          ]
+        },
+        {
+          "name": "premium_brands",
+          "options": [
+            {
+              "name": "Premium Brands"
+            }
+          ]
+        },
+        {
+          "name": "graphics_card_type",
+          "options": [
+            {
+              "name": "Dedicated"
+            },
+            {
+              "name": "Integrated"
+            }
+          ]
+        },
+        {
+          "name": "max_resolution",
+          "options": [
+            {
+              "name": "1024x600"
+            },
+            {
+              "name": "1024x768"
+            },
+            {
+              "name": "1280x720"
+            },
+            {
+              "name": "1280x800"
+            },
+            {
+              "name": "1366x768"
+            },
+            {
+              "name": "1366x912"
+            },
+            {
+              "name": "1440x900"
+            },
+            {
+              "name": "1536x10241600x7681600x9001900x12001920x10801920x12001920x12802160x14402240x14002256x15042496x16642560x14402560x16002736x18242880x18002880x19203000x20003024x19643072x19203456x21603456x22343840x21603840x24004096x2304"
+            },
+            {
+              "name": "1536x1024"
+            },
+            {
+              "name": "1600x768"
+            },
+            {
+              "name": "1600x900"
+            },
+            {
+              "name": "1900x1200"
+            },
+            {
+              "name": "1920x1080"
+            },
+            {
+              "name": "1920x1200"
+            },
+            {
+              "name": "1920x1280"
+            },
+            {
+              "name": "2160x1440"
+            },
+            {
+              "name": "2240x1400"
+            },
+            {
+              "name": "2256x1504"
+            },
+            {
+              "name": "2496x1664"
+            },
+            {
+              "name": "2560x1440"
+            },
+            {
+              "name": "2560x1600"
+            },
+            {
+              "name": "2736x1824"
+            },
+            {
+              "name": "2880x1800"
+            },
+            {
+              "name": "2880x1920"
+            },
+            {
+              "name": "3000x2000"
+            },
+            {
+              "name": "3024x1964"
+            },
+            {
+              "name": "3072x1920"
+            },
+            {
+              "name": "3456x2160"
+            },
+            {
+              "name": "3456x2234"
+            },
+            {
+              "name": "3840x2160"
+            },
+            {
+              "name": "3840x2400"
+            },
+            {
+              "name": "4096x2304"
+            }
+          ]
+        },
+        {
+          "name": "display_refresh_rate_in_hertz",
+          "options": [
+            {
+              "name": "60"
+            },
+            {
+              "name": "90"
+            },
+            {
+              "name": "100"
+            },
+            {
+              "name": "120"
+            },
+            {
+              "name": "144"
+            },
+            {
+              "name": "165"
+            },
+            {
+              "name": "240"
+            },
+            {
+              "name": "300360"
+            },
+            {
+              "name": "300"
+            },
+            {
+              "name": "360"
+            }
+          ]
+        },
+        {
+          "name": "customizable_products",
+          "options": [
+            {
+              "name": "Customizable"
+            }
+          ]
+        },
+        {
+          "name": "hard_disk_interface",
+          "options": [
+            {
+              "name": "PCIE x 4"
+            },
+            {
+              "name": "Solid State"
+            },
+            {
+              "name": "Serial ATA"
+            },
+            {
+              "name": "ATA-4"
+            },
+            {
+              "name": "EIO"
+            },
+            {
+              "name": "eSATA"
+            },
+            {
+              "name": "Ethernet"
+            },
+            {
+              "name": "Ethernet 100Base-TXEthernet 10Base-TGigabit EthernetIEEE 1394bPC CardPCIE x 16PCIE x 2PCIE x 8RaidSCSISerial ATA-150Serial ATA-300Serial ATA-600ThunderboltUltra SCSIUSB 2.0USB 2.0/3.0USB 3.0"
+            },
+            {
+              "name": "Ethernet 100Base-TX"
+            },
+            {
+              "name": "Ethernet 10Base-T"
+            },
+            {
+              "name": "Gigabit Ethernet"
+            },
+            {
+              "name": "IEEE 1394b"
+            },
+            {
+              "name": "PC Card"
+            },
+            {
+              "name": "PCIE x 16"
+            },
+            {
+              "name": "PCIE x 2"
+            },
+            {
+              "name": "PCIE x 8"
+            },
+            {
+              "name": "Raid"
+            },
+            {
+              "name": "SCSI"
+            },
+            {
+              "name": "Serial ATA-150"
+            },
+            {
+              "name": "Serial ATA-300"
+            },
+            {
+              "name": "Serial ATA-600"
+            },
+            {
+              "name": "Thunderbolt"
+            },
+            {
+              "name": "Ultra SCSI"
+            },
+            {
+              "name": "USB 2.0"
+            },
+            {
+              "name": "USB 2.0/3.0"
+            },
+            {
+              "name": "USB 3.0"
+            }
+          ]
+        },
+        {
+          "name": "cell_composition",
+          "options": [
+            {
+              "name": "Lithium Ion"
+            },
+            {
+              "name": "Lithium Polymer"
+            },
+            {
+              "name": "Other Than Listed"
+            },
+            {
+              "name": "Alkaline"
+            },
+            {
+              "name": "Lead Acid"
+            },
+            {
+              "name": "Lithium Metal"
+            },
+            {
+              "name": "NiCAD"
+            }
+          ]
+        },
+        {
+          "name": "cellular_technology",
+          "options": [
+            {
+              "name": "2G"
+            },
+            {
+              "name": "3G"
+            },
+            {
+              "name": "4G"
+            },
+            {
+              "name": "5G"
+            }
+          ]
+        }
+      ],
+      "productResults": {
+        "pageInfo": {
+          "currentPage": 1,
+          "totalPages": 20,
+          "hasNextPage": true,
+          "hasPrevPage": false
+        },
+        "results": [
+          {
+            "sponsored": false,
+            "title": "HP 14 Laptop, Intel Celeron N4020, 4 GB RAM, 64 GB Storage, 14-inch Micro-edge HD Display, Windows 11 Home, Thin & Portable, 4K Graphics, One Year of Microsoft 365 (14-dq0040nr, Snowflake White)",
+            "url": "https://www.amazon.com/HP-Micro-edge-Microsoft-14-dq0040nr-Snowflake/dp/B0947BJ67M/ref=sr_1_1_mod_primary_new?dib=eyJ2IjoiMSJ9.zWrqXGXfeaQLZaSDWJij-0nEsPB2xOoElAUJ-o0VXnklRDPZohX2gXuDGelbWmDg_s44GN83QTb0-8tIIkFaf3YE8vl1SUgQuBW2tU3-oavgb31cyOcU8PjAqhT4UEjdDNt_IKMWE2r8PpUGk_xEu21SjyMsUXohZZo32tMYdPLNak71W3BAwKyZBrEVPaUhW073YZfqqXft2AgQSxt6YVdy_LIU4NIZ1xFatYEbsnY.-aDvTvYuGnbTlY4NOG-FhnFYvFEGvYUDaJHLakl4hfo&dib_tag=se&keywords=laptop&qid=1775361888&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sr=8-1",
+            "asin": "B0947BJ67M",
+            "price": {
+              "symbol": "$",
+              "value": 185,
+              "currency": "USD",
+              "display": "$185.00"
+            },
+            "mainImageUrl": "https://m.media-amazon.com/images/I/815uX7wkOZS._AC_UY218_.jpg",
+            "rating": 4,
+            "ratingsTotal": 5401,
+            "isPrime": false,
+            "coupon": null
+          },
+          {
+            "sponsored": false,
+            "title": "HP 15.6” Ultrabook Laptop • 1.1TB Storage (128GB SSD and 1TB Cloud) • 8GB RAM • Microsoft 365 Included • Intel 13th 4-Cores CPU • Wi-Fi 6 • Win 11 • no Mouse • Sliver",
+            "url": "https://www.amazon.com/HP-Ultrabook-Storage-Microsoft-Included/dp/B0GSQ6STKV/ref=sr_1_2?dib=eyJ2IjoiMSJ9.zWrqXGXfeaQLZaSDWJij-0nEsPB2xOoElAUJ-o0VXnklRDPZohX2gXuDGelbWmDg_s44GN83QTb0-8tIIkFaf3YE8vl1SUgQuBW2tU3-oavgb31cyOcU8PjAqhT4UEjdDNt_IKMWE2r8PpUGk_xEu21SjyMsUXohZZo32tMYdPLNak71W3BAwKyZBrEVPaUhW073YZfqqXft2AgQSxt6YVdy_LIU4NIZ1xFatYEbsnY.-aDvTvYuGnbTlY4NOG-FhnFYvFEGvYUDaJHLakl4hfo&dib_tag=se&keywords=laptop&qid=1775361888&sr=8-2",
+            "asin": "B0GSQ6STKV",
+            "price": {
+              "symbol": "$",
+              "value": 299.97,
+              "currency": "USD",
+              "display": "$299.97"
+            },
+            "mainImageUrl": "https://m.media-amazon.com/images/I/71kNQMBXQsL._AC_UY218_.jpg",
+            "rating": 5,
+            "ratingsTotal": 2,
+            "isPrime": false,
+            "coupon": null
+          },
+          {
+            "sponsored": true,
+            "title": "Apple 2025 MacBook Pro Laptop with Apple M5 chip with 10‑core CPU and 10‑core GPU: Built for AI, 14.2-inch Liquid Retina XDR Display, 16GB Unified Memory, 512GB SSD Storage; Space Black",
+            "url": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MToyMDA3ODEyMjQ2MDMwOTI5OjE3NzUzNjE4ODg6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMTAzMTU1ODA0NDkwMjo6MDo6&url=%2FApple-2025-MacBook-Laptop-10%25E2%2580%2591core%2Fdp%2FB0FWD6SKL6%2Fref%3Dsxin_17_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.41aacd50-19a4-47fc-ad43-b54fbcc792ee%253Aamzn1.sym.41aacd50-19a4-47fc-ad43-b54fbcc792ee%26cv_ct_cx%3Dlaptop%26keywords%3Dlaptop%26pd_rd_i%3DB0FWD6SKL6%26pd_rd_r%3D98ec436b-6cab-4b56-b0ed-c580a970060e%26pd_rd_w%3DrPfPc%26pd_rd_wg%3Dm8Hw4%26pf_rd_p%3D41aacd50-19a4-47fc-ad43-b54fbcc792ee%26pf_rd_r%3DGW0QQS79C3FQ5HPK3D9S%26qid%3D1775361888%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sr%3D1-1-e169343e-09af-4d41-85b1-8335fe8f32d0-spons%26aref%3DF27vjhPZv4%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&aref=F27vjhPZv4",
+            "asin": "B0FWD6SKL6",
+            "price": {
+              "symbol": "$",
+              "value": 1499,
+              "currency": "USD",
+              "display": "$1,499.00"
+            },
+            "mainImageUrl": "https://m.media-amazon.com/images/I/6112T6g2P-L._AC_UL320_.jpg",
+            "rating": 4.7,
+            "ratingsTotal": 322,
+            "isPrime": false,
+            "coupon": null
+          },
+          {
+            "sponsored": true,
+            "title": "Apple 2025 MacBook Air 15-inch Laptop with M4 chip: Built for Apple Intelligence, 15.3-inch Liquid Retina Display, 16GB Unified Memory, 256GB SSD Storage, 12MP Center Stage Camera, Touch ID; Midnight",
+            "url": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MToyMDA3ODEyMjQ2MDMwOTI5OjE3NzUzNjE4ODg6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMDkyNDE1OTIyNDUwMjo6MTo6&url=%2FApple-2025-MacBook-15-inch-Laptop%2Fdp%2FB0DZDBDCFH%2Fref%3Dsxin_17_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.41aacd50-19a4-47fc-ad43-b54fbcc792ee%253Aamzn1.sym.41aacd50-19a4-47fc-ad43-b54fbcc792ee%26cv_ct_cx%3Dlaptop%26keywords%3Dlaptop%26pd_rd_i%3DB0DZDBDCFH%26pd_rd_r%3D98ec436b-6cab-4b56-b0ed-c580a970060e%26pd_rd_w%3DrPfPc%26pd_rd_wg%3Dm8Hw4%26pf_rd_p%3D41aacd50-19a4-47fc-ad43-b54fbcc792ee%26pf_rd_r%3DGW0QQS79C3FQ5HPK3D9S%26qid%3D1775361888%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sr%3D1-2-e169343e-09af-4d41-85b1-8335fe8f32d0-spons%26aref%3DCJdnHhnV7S%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&aref=CJdnHhnV7S",
+            "asin": "B0DZDBDCFH",
+            "price": {
+              "symbol": "$",
+              "value": 999.97,
+              "currency": "USD",
+              "display": "$999.97"
+            },
+            "mainImageUrl": "https://m.media-amazon.com/images/I/71Ej6sIsNaL._AC_UL320_.jpg",
+            "rating": 4.8,
+            "ratingsTotal": 2680,
+            "isPrime": false,
+            "coupon": null
+          },
+          {
+            "sponsored": true,
+            "title": "NIMO 15.6'' IPS FHD-Laptop, 16GB RAM 512GB SSD AMD Ryzen 5(Beat i5-1135G7, 4 Cores Up to 3.7GHz) Student Computer with 2 Years Warranty, 65W Type-C, Fingerprint, Backlit Keyboard, BT5.2, Numpad",
+            "url": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MToyMDA3ODEyMjQ2MDMwOTI5OjE3NzUzNjE4ODg6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMTIxODc4OTA2NDQwMjo6Mjo6&url=%2FNIMO-FHD-Laptop-i5-1135G7-Computer-Fingerprint%2Fdp%2FB0FW4MXV8C%2Fref%3Dsxin_17_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.41aacd50-19a4-47fc-ad43-b54fbcc792ee%253Aamzn1.sym.41aacd50-19a4-47fc-ad43-b54fbcc792ee%26cv_ct_cx%3Dlaptop%26keywords%3Dlaptop%26pd_rd_i%3DB0FW4MXV8C%26pd_rd_r%3D98ec436b-6cab-4b56-b0ed-c580a970060e%26pd_rd_w%3DrPfPc%26pd_rd_wg%3Dm8Hw4%26pf_rd_p%3D41aacd50-19a4-47fc-ad43-b54fbcc792ee%26pf_rd_r%3DGW0QQS79C3FQ5HPK3D9S%26qid%3D1775361888%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sr%3D1-3-e169343e-09af-4d41-85b1-8335fe8f32d0-spons%26aref%3D0WWJwplsfr%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&aref=0WWJwplsfr",
+            "asin": "B0FW4MXV8C",
+            "price": {
+              "symbol": "$",
+              "value": 429.99,
+              "currency": "USD",
+              "display": "$429.99"
+            },
+            "mainImageUrl": "https://m.media-amazon.com/images/I/71vNoBhboRL._AC_UL320_.jpg",
+            "rating": 4.4,
+            "ratingsTotal": 262,
+            "isPrime": false,
+            "coupon": null
+          },
+          {
+            "sponsored": true,
+            "title": "HP Flagship 14\" HD Student&Business Laptop with AI Copilot, 13th Gen Intel 4-Core, 4GB RAM, 1.12TB Storage (128GB UFS + 1TB Docking Station), 1 Year Office 365, Wi-Fi 6, Win 11 S, Lavender Purple",
+            "url": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MToyMDA3ODEyMjQ2MDMwOTI5OjE3NzUzNjE4ODg6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMTEzMTA5MDgwMTAwMjo6Mzo6&url=%2FHP-Flagship-Student-Business-Lavender%2Fdp%2FB0G5P8JP2Z%2Fref%3Dsxin_17_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.41aacd50-19a4-47fc-ad43-b54fbcc792ee%253Aamzn1.sym.41aacd50-19a4-47fc-ad43-b54fbcc792ee%26cv_ct_cx%3Dlaptop%26keywords%3Dlaptop%26pd_rd_i%3DB0G5P8JP2Z%26pd_rd_r%3D98ec436b-6cab-4b56-b0ed-c580a970060e%26pd_rd_w%3DrPfPc%26pd_rd_wg%3Dm8Hw4%26pf_rd_p%3D41aacd50-19a4-47fc-ad43-b54fbcc792ee%26pf_rd_r%3DGW0QQS79C3FQ5HPK3D9S%26qid%3D1775361888%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sr%3D1-4-e169343e-09af-4d41-85b1-8335fe8f32d0-spons%26aref%3DqDWv9XHafq%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&aref=qDWv9XHafq",
+            "asin": "B0G5P8JP2Z",
+            "price": {
+              "symbol": "$",
+              "value": 299,
+              "currency": "USD",
+              "display": "$299.00"
+            },
+            "mainImageUrl": "https://m.media-amazon.com/images/I/81vZJm+uB8L._AC_UL320_.jpg",
+            "rating": 4.2,
+            "ratingsTotal": 269,
+            "isPrime": false,
+            "coupon": null
+          },
+          {
+            "sponsored": true,
+            "title": "HP 14” Flagship Laptop 2025 AI-Powered Computer, Office Lifetime, Student Business, 4-Core Intel CPU, 16GB RAM 628GB Storage (128GB UFS+ 500GB Ext), Long Battery HubxcelAccessory Win 11 Pro Lavender",
+            "url": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MToyMDA3ODEyMjQ2MDMwOTI5OjE3NzUzNjE4ODg6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMDg1NzQ4Mjg5MzIwMjo6NDo6&url=%2FHP-14-Laptop-2025-HubxcelAccessory%2Fdp%2FB0FJ7T1V8N%2Fref%3Dsxin_17_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.41aacd50-19a4-47fc-ad43-b54fbcc792ee%253Aamzn1.sym.41aacd50-19a4-47fc-ad43-b54fbcc792ee%26cv_ct_cx%3Dlaptop%26keywords%3Dlaptop%26pd_rd_i%3DB0FJ7T1V8N%26pd_rd_r%3D98ec436b-6cab-4b56-b0ed-c580a970060e%26pd_rd_w%3DrPfPc%26pd_rd_wg%3Dm8Hw4%26pf_rd_p%3D41aacd50-19a4-47fc-ad43-b54fbcc792ee%26pf_rd_r%3DGW0QQS79C3FQ5HPK3D9S%26qid%3D1775361888%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sr%3D1-5-e169343e-09af-4d41-85b1-8335fe8f32d0-spons%26aref%3DEC98AlsXtI%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&aref=EC98AlsXtI",
+            "asin": "B0FJ7T1V8N",
+            "price": {
+              "symbol": "$",
+              "value": 359,
+              "currency": "USD",
+              "display": "$359.00"
+            },
+            "mainImageUrl": "https://m.media-amazon.com/images/I/71W9zYgTcML._AC_UL320_.jpg",
+            "rating": 4.5,
+            "ratingsTotal": 176,
+            "isPrime": false,
+            "coupon": null
+          },
+          {
+            "sponsored": false,
+            "title": "Lenovo IdeaPad Business Laptop with Microsoft 365 • 11 Hour Battery • Intel High Performance CPU • 8GB RAM • 128GB Internal SSD | with Additional 1TB One Drive Storage • SD-Card Reader • Windows 11",
+            "url": "https://www.amazon.com/Lenovo-Business-Microsoft-Performance-Additional/dp/B0FZDFMBDQ/ref=sr_1_3?dib=eyJ2IjoiMSJ9.zWrqXGXfeaQLZaSDWJij-0nEsPB2xOoElAUJ-o0VXnklRDPZohX2gXuDGelbWmDg_s44GN83QTb0-8tIIkFaf3YE8vl1SUgQuBW2tU3-oavgb31cyOcU8PjAqhT4UEjdDNt_IKMWE2r8PpUGk_xEu21SjyMsUXohZZo32tMYdPLNak71W3BAwKyZBrEVPaUhW073YZfqqXft2AgQSxt6YVdy_LIU4NIZ1xFatYEbsnY.-aDvTvYuGnbTlY4NOG-FhnFYvFEGvYUDaJHLakl4hfo&dib_tag=se&keywords=laptop&qid=1775361888&sr=8-3",
+            "asin": "B0FZDFMBDQ",
+            "price": {
+              "symbol": "$",
+              "value": 259.99,
+              "currency": "USD",
+              "display": "$259.99"
+            },
+            "mainImageUrl": "https://m.media-amazon.com/images/I/71LmPdODkcL._AC_UY218_.jpg",
+            "rating": 4.6,
+            "ratingsTotal": 413,
+            "isPrime": false,
+            "coupon": null
+          },
+          {
+            "sponsored": false,
+            "title": "HP 15.6\" Business Laptop Computer • 2026 Edition • Intel 4-Core N100 CPU • 128GB SSD • Windows 11 Pro with Office 365 for The Web • w/o Mouse",
+            "url": "https://www.amazon.com/HP-Business-Laptop-Computer-Windows/dp/B0GD956T7X/ref=sr_1_4?dib=eyJ2IjoiMSJ9.zWrqXGXfeaQLZaSDWJij-0nEsPB2xOoElAUJ-o0VXnklRDPZohX2gXuDGelbWmDg_s44GN83QTb0-8tIIkFaf3YE8vl1SUgQuBW2tU3-oavgb31cyOcU8PjAqhT4UEjdDNt_IKMWE2r8PpUGk_xEu21SjyMsUXohZZo32tMYdPLNak71W3BAwKyZBrEVPaUhW073YZfqqXft2AgQSxt6YVdy_LIU4NIZ1xFatYEbsnY.-aDvTvYuGnbTlY4NOG-FhnFYvFEGvYUDaJHLakl4hfo&dib_tag=se&keywords=laptop&qid=1775361888&sr=8-4",
+            "asin": "B0GD956T7X",
+            "price": {
+              "symbol": "$",
+              "value": 299.97,
+              "currency": "USD",
+              "display": "$299.97"
+            },
+            "mainImageUrl": "https://m.media-amazon.com/images/I/71xwG0NEzBL._AC_UY218_.jpg",
+            "rating": 4.5,
+            "ratingsTotal": 12,
+            "isPrime": false,
+            "coupon": null
+          },
+          {
+            "sponsored": false,
+            "title": "Laptop 16-inch 8GB DDR 256GB SSD portable laptop computer, expandable to 1TB, AMD A9-9400 Radeon R5 CPU up to 3.2 GHz, 9000mAh battery, Numeric Keypad, USB 3.0, dual-band WiFi, webcam, slim laptops",
+            "url": "https://www.amazon.com/16-inch-portable-computer-expandable-dual-band/dp/B0G6YM5X89/ref=sr_1_5?dib=eyJ2IjoiMSJ9.zWrqXGXfeaQLZaSDWJij-0nEsPB2xOoElAUJ-o0VXnklRDPZohX2gXuDGelbWmDg_s44GN83QTb0-8tIIkFaf3YE8vl1SUgQuBW2tU3-oavgb31cyOcU8PjAqhT4UEjdDNt_IKMWE2r8PpUGk_xEu21SjyMsUXohZZo32tMYdPLNak71W3BAwKyZBrEVPaUhW073YZfqqXft2AgQSxt6YVdy_LIU4NIZ1xFatYEbsnY.-aDvTvYuGnbTlY4NOG-FhnFYvFEGvYUDaJHLakl4hfo&dib_tag=se&keywords=laptop&qid=1775361888&sr=8-5",
+            "asin": "B0G6YM5X89",
+            "price": {
+              "symbol": "$",
+              "value": 219.99,
+              "currency": "USD",
+              "display": "$219.99"
+            },
+            "mainImageUrl": "https://m.media-amazon.com/images/I/71nv5Y76BpL._AC_UY218_.jpg",
+            "rating": 5,
+            "ratingsTotal": 20,
+            "isPrime": false,
+            "coupon": null
+          },
+          {
+            "sponsored": false,
+            "title": "laptop 16-inch 8GB DDR 256GB SSD portable laptop computer, expandable to 1TB, AMD A9-9400 Radeon R5 CPU up to 3.2 GHz, 9000mAh battery, Numeric Keypad, USB 3.0, dual-band WiFi, webcam, slim laptops",
+            "url": "https://www.amazon.com/16-inch-portable-computer-expandable-dual-band/dp/B0G3Q48SVJ/ref=sr_1_6?dib=eyJ2IjoiMSJ9.zWrqXGXfeaQLZaSDWJij-0nEsPB2xOoElAUJ-o0VXnklRDPZohX2gXuDGelbWmDg_s44GN83QTb0-8tIIkFaf3YE8vl1SUgQuBW2tU3-oavgb31cyOcU8PjAqhT4UEjdDNt_IKMWE2r8PpUGk_xEu21SjyMsUXohZZo32tMYdPLNak71W3BAwKyZBrEVPaUhW073YZfqqXft2AgQSxt6YVdy_LIU4NIZ1xFatYEbsnY.-aDvTvYuGnbTlY4NOG-FhnFYvFEGvYUDaJHLakl4hfo&dib_tag=se&keywords=laptop&qid=1775361888&sr=8-6",
+            "asin": "B0G3Q48SVJ",
+            "price": {
+              "symbol": "$",
+              "value": 219.99,
+              "currency": "USD",
+              "display": "$219.99"
+            },
+            "mainImageUrl": "https://m.media-amazon.com/images/I/71nv5Y76BpL._AC_UY218_.jpg",
+            "rating": 4.3,
+            "ratingsTotal": 55,
+            "isPrime": false,
+            "coupon": null
+          },
+          {
+            "sponsored": false,
+            "title": "HP Business Laptop with Microsoft Office 365, 1TB OneDrive and 128GB SSD, 8GB RAM, 4-Core Intel Processor | No Mouse, Fast Response, Long Battery Life, Good Value",
+            "url": "https://www.amazon.com/HP-Business-Microsoft-OneDrive-Processor/dp/B0G4B33S9P/ref=sr_1_7?dib=eyJ2IjoiMSJ9.zWrqXGXfeaQLZaSDWJij-0nEsPB2xOoElAUJ-o0VXnklRDPZohX2gXuDGelbWmDg_s44GN83QTb0-8tIIkFaf3YE8vl1SUgQuBW2tU3-oavgb31cyOcU8PjAqhT4UEjdDNt_IKMWE2r8PpUGk_xEu21SjyMsUXohZZo32tMYdPLNak71W3BAwKyZBrEVPaUhW073YZfqqXft2AgQSxt6YVdy_LIU4NIZ1xFatYEbsnY.-aDvTvYuGnbTlY4NOG-FhnFYvFEGvYUDaJHLakl4hfo&dib_tag=se&keywords=laptop&qid=1775361888&sr=8-7",
+            "asin": "B0G4B33S9P",
+            "price": {
+              "symbol": "$",
+              "value": 299.99,
+              "currency": "USD",
+              "display": "$299.99"
+            },
+            "mainImageUrl": "https://m.media-amazon.com/images/I/61bU4BhnSKL._AC_UY218_.jpg",
+            "rating": 4.2,
+            "ratingsTotal": 192,
+            "isPrime": false,
+            "coupon": null
+          },
+          {
+            "sponsored": false,
+            "title": "Apple 2026 MacBook Neo 13-inch Laptop with A18 Pro chip: Built for AI and Apple Intelligence, Liquid Retina Display, 8GB Unified Memory, 512GB SSD Storage, 1080p FaceTime HD Camera, Touch ID; Indigo",
+            "url": "https://www.amazon.com/Apple-2026-MacBook-13-inch-Laptop/dp/B0GR6JMY9W/ref=sr_1_8?dib=eyJ2IjoiMSJ9.zWrqXGXfeaQLZaSDWJij-0nEsPB2xOoElAUJ-o0VXnklRDPZohX2gXuDGelbWmDg_s44GN83QTb0-8tIIkFaf3YE8vl1SUgQuBW2tU3-oavgb31cyOcU8PjAqhT4UEjdDNt_IKMWE2r8PpUGk_xEu21SjyMsUXohZZo32tMYdPLNak71W3BAwKyZBrEVPaUhW073YZfqqXft2AgQSxt6YVdy_LIU4NIZ1xFatYEbsnY.-aDvTvYuGnbTlY4NOG-FhnFYvFEGvYUDaJHLakl4hfo&dib_tag=se&keywords=laptop&qid=1775361888&sr=8-8",
+            "asin": "B0GR6JMY9W",
+            "price": {
+              "symbol": "$",
+              "value": 689.99,
+              "currency": "USD",
+              "display": "$689.99"
+            },
+            "mainImageUrl": "https://m.media-amazon.com/images/I/619PNoEsnSL._AC_UY218_.jpg",
+            "rating": 4.8,
+            "ratingsTotal": 183,
+            "isPrime": false,
+            "coupon": null
+          },
+          {
+            "sponsored": false,
+            "title": "HP 14″Rose Gold Lightweight Laptop, with Office 365 & Copilot AI, Intel Processor, 4GB RAM Memory, 64GB SSD + 1TB Cloud Storage",
+            "url": "https://www.amazon.com/HP-Dual-Core-Microsoft-OneDrive-Lightweight/dp/B0C7P3HC32/ref=sr_1_9?dib=eyJ2IjoiMSJ9.zWrqXGXfeaQLZaSDWJij-0nEsPB2xOoElAUJ-o0VXnklRDPZohX2gXuDGelbWmDg_s44GN83QTb0-8tIIkFaf3YE8vl1SUgQuBW2tU3-oavgb31cyOcU8PjAqhT4UEjdDNt_IKMWE2r8PpUGk_xEu21SjyMsUXohZZo32tMYdPLNak71W3BAwKyZBrEVPaUhW073YZfqqXft2AgQSxt6YVdy_LIU4NIZ1xFatYEbsnY.-aDvTvYuGnbTlY4NOG-FhnFYvFEGvYUDaJHLakl4hfo&dib_tag=se&keywords=laptop&qid=1775361888&sr=8-9",
+            "asin": "B0C7P3HC32",
+            "price": {
+              "symbol": "$",
+              "value": 214.99,
+              "currency": "USD",
+              "display": "$214.99"
+            },
+            "mainImageUrl": "https://m.media-amazon.com/images/I/71iy-loSrdL._AC_UY218_.jpg",
+            "rating": null,
+            "ratingsTotal": null,
+            "isPrime": false,
+            "coupon": null
+          },
+          {
+            "sponsored": false,
+            "title": "Lenovo IdeaPad 3 15.6\" FHD Chromebook Laptop, Intel Celeron N4500, Intel UHD Graphics, 4GB RAM, 64GB SSD, USB-A&C, HDMI, WiFi, Chrome OS",
+            "url": "https://www.amazon.com/Lenovo-IdeaPad-Chromebook-Celeron-Graphics/dp/B0D7SK7H8N/ref=sr_1_10?dib=eyJ2IjoiMSJ9.zWrqXGXfeaQLZaSDWJij-0nEsPB2xOoElAUJ-o0VXnklRDPZohX2gXuDGelbWmDg_s44GN83QTb0-8tIIkFaf3YE8vl1SUgQuBW2tU3-oavgb31cyOcU8PjAqhT4UEjdDNt_IKMWE2r8PpUGk_xEu21SjyMsUXohZZo32tMYdPLNak71W3BAwKyZBrEVPaUhW073YZfqqXft2AgQSxt6YVdy_LIU4NIZ1xFatYEbsnY.-aDvTvYuGnbTlY4NOG-FhnFYvFEGvYUDaJHLakl4hfo&dib_tag=se&keywords=laptop&qid=1775361888&sr=8-10",
+            "asin": "B0D7SK7H8N",
+            "price": {
+              "symbol": "$",
+              "value": 169.99,
+              "currency": "USD",
+              "display": "$169.99"
+            },
+            "mainImageUrl": "https://m.media-amazon.com/images/I/613oHtHur-L._AC_UY218_.jpg",
+            "rating": 4.5,
+            "ratingsTotal": 58,
+            "isPrime": false,
+            "coupon": null
+          },
+          {
+            "sponsored": false,
+            "title": "Dell Chromebook 11 3100 11.6\" Chromebook - 1366 x 768 - Celeron N4020-4 GB RAM - 16 GB Flash Memory - Chrome OS - Intel HD Graphics - English (US) Keyboard - Bluetooth (Renewed)",
+            "url": "https://www.amazon.com/Dell-Chromebook-3100-11-6-Bluetooth/dp/B08SHN3TZP/ref=sr_1_11?dib=eyJ2IjoiMSJ9.zWrqXGXfeaQLZaSDWJij-0nEsPB2xOoElAUJ-o0VXnklRDPZohX2gXuDGelbWmDg_s44GN83QTb0-8tIIkFaf3YE8vl1SUgQuBW2tU3-oavgb31cyOcU8PjAqhT4UEjdDNt_IKMWE2r8PpUGk_xEu21SjyMsUXohZZo32tMYdPLNak71W3BAwKyZBrEVPaUhW073YZfqqXft2AgQSxt6YVdy_LIU4NIZ1xFatYEbsnY.-aDvTvYuGnbTlY4NOG-FhnFYvFEGvYUDaJHLakl4hfo&dib_tag=se&keywords=laptop&qid=1775361888&sr=8-11",
+            "asin": "B08SHN3TZP",
+            "price": {
+              "symbol": "$",
+              "value": 63.99,
+              "currency": "USD",
+              "display": "$63.99"
+            },
+            "mainImageUrl": "https://m.media-amazon.com/images/I/61zTekYPPRL._AC_UY218_.jpg",
+            "rating": 4.2,
+            "ratingsTotal": 1388,
+            "isPrime": false,
+            "coupon": null
+          },
+          {
+            "sponsored": false,
+            "title": "HP 255 G10 Business Laptop for Home or Work, 2026 Edition, 8GB RAM, 256GB SSD, 15.6\" Full HD, Ryzen 5 7530U, HDMI, Windows 11 Pro with Office 365 for The Web, w/o Mouse",
+            "url": "https://www.amazon.com/HP-Business-Laptop-Windows-Office/dp/B0GM2CZ3WM/ref=sr_1_12?dib=eyJ2IjoiMSJ9.zWrqXGXfeaQLZaSDWJij-0nEsPB2xOoElAUJ-o0VXnklRDPZohX2gXuDGelbWmDg_s44GN83QTb0-8tIIkFaf3YE8vl1SUgQuBW2tU3-oavgb31cyOcU8PjAqhT4UEjdDNt_IKMWE2r8PpUGk_xEu21SjyMsUXohZZo32tMYdPLNak71W3BAwKyZBrEVPaUhW073YZfqqXft2AgQSxt6YVdy_LIU4NIZ1xFatYEbsnY.-aDvTvYuGnbTlY4NOG-FhnFYvFEGvYUDaJHLakl4hfo&dib_tag=se&keywords=laptop&qid=1775361888&sr=8-12",
+            "asin": "B0GM2CZ3WM",
+            "price": {
+              "symbol": "$",
+              "value": 399.98,
+              "currency": "USD",
+              "display": "$399.98"
+            },
+            "mainImageUrl": "https://m.media-amazon.com/images/I/713ZNNlAJZL._AC_UY218_.jpg",
+            "rating": 5,
+            "ratingsTotal": 6,
+            "isPrime": false,
+            "coupon": null
+          },
+          {
+            "sponsored": false,
+            "title": "HP 15.6\" Business Laptop with Microsoft Office 365 with Copliot AI & 1TB OneDrive, 16GB RAM 128GB SSD, Quad-Cores Intel Processor, Windows 11, PLUSERA Earphones & 8-in-1 Hub Included, Moonlight Blue",
+            "url": "https://www.amazon.com/HP-Microsoft-Quad-Cores-Processor-Earphones/dp/B0GGCQSLNW/ref=sr_1_13?dib=eyJ2IjoiMSJ9.zWrqXGXfeaQLZaSDWJij-0nEsPB2xOoElAUJ-o0VXnklRDPZohX2gXuDGelbWmDg_s44GN83QTb0-8tIIkFaf3YE8vl1SUgQuBW2tU3-oavgb31cyOcU8PjAqhT4UEjdDNt_IKMWE2r8PpUGk_xEu21SjyMsUXohZZo32tMYdPLNak71W3BAwKyZBrEVPaUhW073YZfqqXft2AgQSxt6YVdy_LIU4NIZ1xFatYEbsnY.-aDvTvYuGnbTlY4NOG-FhnFYvFEGvYUDaJHLakl4hfo&dib_tag=se&keywords=laptop&qid=1775361888&sr=8-13",
+            "asin": "B0GGCQSLNW",
+            "price": {
+              "symbol": "$",
+              "value": 439.97,
+              "currency": "USD",
+              "display": "$439.97"
+            },
+            "mainImageUrl": "https://m.media-amazon.com/images/I/81EcSHuDGhL._AC_UY218_.jpg",
+            "rating": 4.2,
+            "ratingsTotal": 178,
+            "isPrime": false,
+            "coupon": null
+          },
+          {
+            "sponsored": false,
+            "title": "HP 2026 Lightweight Portable Chromebook, 14'' HD IPS Display, Intel Quad-Core N Processor Up to 3.70GHz, 4GB DDR5, 128GB SSD Storage, Ultra-Fast 6th Gen WiFi, Chrome OS, Pastel Silver, Renewed",
+            "url": "https://www.amazon.com/HP-Lightweight-Chromebook-14-Ultra-Fast/dp/B0G67CQM46/ref=sr_1_14?dib=eyJ2IjoiMSJ9.zWrqXGXfeaQLZaSDWJij-0nEsPB2xOoElAUJ-o0VXnklRDPZohX2gXuDGelbWmDg_s44GN83QTb0-8tIIkFaf3YE8vl1SUgQuBW2tU3-oavgb31cyOcU8PjAqhT4UEjdDNt_IKMWE2r8PpUGk_xEu21SjyMsUXohZZo32tMYdPLNak71W3BAwKyZBrEVPaUhW073YZfqqXft2AgQSxt6YVdy_LIU4NIZ1xFatYEbsnY.-aDvTvYuGnbTlY4NOG-FhnFYvFEGvYUDaJHLakl4hfo&dib_tag=se&keywords=laptop&qid=1775361888&sr=8-14",
+            "asin": "B0G67CQM46",
+            "price": {
+              "symbol": "$",
+              "value": 180.8,
+              "currency": "USD",
+              "display": "$180.80"
+            },
+            "mainImageUrl": "https://m.media-amazon.com/images/I/611pzWZp1sL._AC_UY218_.jpg",
+            "rating": 4.5,
+            "ratingsTotal": 57,
+            "isPrime": false,
+            "coupon": null
+          },
+          {
+            "sponsored": false,
+            "title": "Dell Inspiron 15 3530 Laptop Computer, 15.6\" Touchscreen WVA LED FHD Anti-Glare Display, 20GB RAM, 512GB SSD, Windows 11 Pro, Intel 10-Core i5-1334U, AI Copilot for Student & Business",
+            "url": "https://www.amazon.com/Dell-15-Laptop-Touchscreen-Anti-Glare/dp/B0GRZ78683/ref=sr_1_15?dib=eyJ2IjoiMSJ9.zWrqXGXfeaQLZaSDWJij-0nEsPB2xOoElAUJ-o0VXnklRDPZohX2gXuDGelbWmDg_s44GN83QTb0-8tIIkFaf3YE8vl1SUgQuBW2tU3-oavgb31cyOcU8PjAqhT4UEjdDNt_IKMWE2r8PpUGk_xEu21SjyMsUXohZZo32tMYdPLNak71W3BAwKyZBrEVPaUhW073YZfqqXft2AgQSxt6YVdy_LIU4NIZ1xFatYEbsnY.-aDvTvYuGnbTlY4NOG-FhnFYvFEGvYUDaJHLakl4hfo&dib_tag=se&keywords=laptop&qid=1775361888&sr=8-15",
+            "asin": "B0GRZ78683",
+            "price": {
+              "symbol": "$",
+              "value": 599.99,
+              "currency": "USD",
+              "display": "$599.99"
+            },
+            "mainImageUrl": "https://m.media-amazon.com/images/I/71KdeLpejxL._AC_UY218_.jpg",
+            "rating": 4.8,
+            "ratingsTotal": 14,
+            "isPrime": false,
+            "coupon": null
+          },
+          {
+            "sponsored": false,
+            "title": "Dell 15 Laptop DC15250-15.6-inch FHD 120Hz Display, Intel Core 3 Processor 100U, 8GB DDR4 RAM, 512GB SSD, Intel UHD Graphics, Windows 11 Home, Onsite Service - Carbon Black",
+            "url": "https://www.amazon.com/Dell-DC15250-15-6-inch-Display-Processor-Graphics/dp/B09R6FNNS1/ref=sr_1_16?dib=eyJ2IjoiMSJ9.zWrqXGXfeaQLZaSDWJij-0nEsPB2xOoElAUJ-o0VXnklRDPZohX2gXuDGelbWmDg_s44GN83QTb0-8tIIkFaf3YE8vl1SUgQuBW2tU3-oavgb31cyOcU8PjAqhT4UEjdDNt_IKMWE2r8PpUGk_xEu21SjyMsUXohZZo32tMYdPLNak71W3BAwKyZBrEVPaUhW073YZfqqXft2AgQSxt6YVdy_LIU4NIZ1xFatYEbsnY.-aDvTvYuGnbTlY4NOG-FhnFYvFEGvYUDaJHLakl4hfo&dib_tag=se&keywords=laptop&qid=1775361888&sr=8-16",
+            "asin": "B09R6FNNS1",
+            "price": {
+              "symbol": "$",
+              "value": 398,
+              "currency": "USD",
+              "display": "$398.00"
+            },
+            "mainImageUrl": "https://m.media-amazon.com/images/I/71d6CcN8Q5L._AC_UY218_.jpg",
+            "rating": 4.3,
+            "ratingsTotal": 455,
+            "isPrime": false,
+            "coupon": null
+          }
+        ]
+      }
+    }
+  }
+}

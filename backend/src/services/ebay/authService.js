@@ -9,7 +9,8 @@ async function getToken() {
   }
 
   try {
-    const response = await axios.post('https://api.ebay.com/identity/v1/oauth2/token', new URLSearchParams({
+    const response = await axios.post(process.env.EBAY_OAUTH_URL || 'https://api.ebay.com/identity/v1/oauth2/token', 
+      new URLSearchParams({
       grant_type: 'client_credentials',
       scope: 'https://api.ebay.com/oauth/api_scope'
     }), {
