@@ -1,4 +1,7 @@
 import fetch from "node-fetch";
+import { context, trace } from '@opentelemetry/api';
+
+const tracer = trace.getTracer("llm-explanation-engine");
 
 const DEFAULT_CONFIG = {
   maxAlternatives: 3,
@@ -28,7 +31,7 @@ You are an expert product advisor.
 
 Explain the product comparison in a simple, helpful way.
 
-Respond ONLY in JSON format:
+Respond JSON strictly in this format:
 {
   "whyBest": "Why the winner is best",
   "whyNotOthers": ["Reason 1", "Reason 2"],
@@ -45,8 +48,8 @@ Rules:
 - Use ONLY the data provided in the input
 - DO NOT assume or invent features
 - DO NOT mention anything not present in input
+- MUST highlight rating, reviews, price, and trustworthiness
 - Keep explanation simple and user-friendly
-- Highlight rating, reviews, price, and trust
 - Mention risks in alternatives if any
 - Avoid technical jargon
 - Be concise but insightful
@@ -55,19 +58,45 @@ Rules:
 
 
 // ---------- Ollama ----------
-
 async function callOllama(prompt) {
-  const response = await fetch("http://localhost:11434/api/generate", {
-    method: "POST",
-    body: JSON.stringify({
-      model: "phi3:mini",
-      prompt,
-      stream: false,
-    }),
-  });
+  
+  return await tracer.startActiveSpan('Ollama call for Explanation', async (span) => {
 
-  const data = await response.json();
-  return parseResponse(data.response);
+    //const span = tracer.startSpan('Ollama call for Explanation');
+
+    //const ctx = trace.setSpan(context.active(), span);
+    //const boundFn = context.bind(ctx, async () => {
+        try {  
+          const startTime = Date.now();
+          span.setAttribute('llm.type', "LLM_Explanation");
+          span.setAttribute('llm.prompt.length', prompt.length);
+          //span.setAttribute('llm.model', 'ollama');
+
+          const response = await fetch(process.env.OLLAMA_API_URL, {
+            method: "POST",
+            body: JSON.stringify({
+              model: "phi3:mini",
+              prompt,
+              stream: false,
+            }),
+          });
+
+          const data = await response.json();
+
+          const duration = Date.now() - startTime;
+          span.setAttribute('llm.latency.time_ms', duration);
+
+          return parseResponse(data.response);
+        } catch (err) {
+          console.error("Error calling Ollama:", err);
+            span.recordException(err);
+            throw err;
+        } finally {
+          span.end();
+        }
+    });
+
+    //return await boundFn();
 }
 
 // ---------- Parser ----------
@@ -90,8 +119,13 @@ function parseResponse(text) {
   const payload = extractJsonPayload(text);
 
   try {
-    console.log("LLM Explanation Payload:", payload);
-    return JSON.parse(payload);
+    try {
+      console.log("LLM Explanation Payload:", payload);
+      return JSON.parse(payload);
+    } catch (err) {
+      console.warn("Trying to parse on original text as fallback...");
+      return JSON.parse(text);
+    }
   } catch (err) {
     console.error("Failed to parse LLM response:", err);
     return {
@@ -103,7 +137,6 @@ function parseResponse(text) {
 }
 
 // ---------- Main Function ----------
-
 async function generateExplanation(result, options = {}) {
   const { provider = "ollama", maxAlternatives = 3 } = options;
 
@@ -135,3 +168,11 @@ async function generateExplanation(result, options = {}) {
 }
 
 export { generateExplanation };
+
+/*
+const parentSpan = tracer.startSpan('Product comparison');
+
+const childSpan = tracer.startSpan('Fetch eBay', {
+  parent: parentSpan,
+});
+*/

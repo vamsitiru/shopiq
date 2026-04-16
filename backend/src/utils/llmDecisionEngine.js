@@ -1,4 +1,8 @@
 import fetch from 'node-fetch';
+import { context, trace } from '@opentelemetry/api';
+
+const tracer = trace.getTracer("llm-decision-engine");
+
 
 const DEFAULT_CONFIG = {
   scoreThreshold: 0.7,       // trigger if scores are close
@@ -67,19 +71,42 @@ function sanitizeProduct(p) {
 }
 
 // ---------- Ollama (Local LLM) ----------
-
 async function callOllama(prompt) {
-  const response = await fetch("http://localhost:11434/api/generate", {
-    method: "POST",
-    body: JSON.stringify({
-      model: "phi3:mini",
-      prompt,
-      stream: false,
-    }),
-  });
+      const span = tracer.startSpan('Ollama call for Decision making');
 
-  const data = await response.json();
-  return parseLLMResponse(data.response);
+      const ctx = trace.setSpan(context.active(), span);
+      //const boundFn = context.bind(ctx, async () => {
+          try {
+            const startTime = Date.now();
+            span.setAttribute('llm.type', "LLM Decision");
+            span.setAttribute('llm.prompt.length', prompt.length);
+            span.setAttribute('llm.model', 'ollama');
+
+            const response = await fetch(process.env.OLLAMA_API_URL, {
+              method: "POST",
+              body: JSON.stringify({
+                model: "phi3:mini",
+                prompt,
+                stream: false,
+              }),
+            });
+
+            const data = await response.json();
+
+            const duration = Date.now() - startTime;
+            //span.setAttribute('llm.response.length', response.length);
+            span.setAttribute('llm.latency.time_ms', duration);
+
+            return parseLLMResponse(data.response);
+          } catch (err) {
+            span.recordException(err);
+            throw err;
+          } finally {
+            span.end();
+          }
+      //});
+
+      //return await boundFn();
 }
 
 // ---------- Response Parser ----------
