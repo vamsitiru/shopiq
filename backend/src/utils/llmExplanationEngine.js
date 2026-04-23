@@ -1,5 +1,13 @@
 import fetch from "node-fetch";
 import { context, trace } from '@opentelemetry/api';
+import { countTokens , calculateCost } from "./tokenUtils.js";
+import {
+  llmInputTokens,
+  llmOutputTokens,
+  llmCost,
+  llmLatency
+} from "./llmPrometheusMetrics.js";
+
 
 const tracer = trace.getTracer("llm-explanation-engine");
 
@@ -62,16 +70,17 @@ async function callOllama(prompt) {
   
   return await tracer.startActiveSpan('Ollama call for Explanation', async (span) => {
 
-    //const span = tracer.startSpan('Ollama call for Explanation');
+    // Prometheus metrics
+    const endTimer = llmLatency.startTimer({ flow: "explanation" });
+    const promptTokenCount = countTokens(prompt);
 
-    //const ctx = trace.setSpan(context.active(), span);
-    //const boundFn = context.bind(ctx, async () => {
+    llmInputTokens.inc({ flow: "explanation_input" }, promptTokenCount);
+    
         try {  
           const startTime = Date.now();
           span.setAttribute('llm.type', "LLM_Explanation");
           span.setAttribute('llm.prompt.length', prompt.length);
-          //span.setAttribute('llm.model', 'ollama');
-
+    
           const response = await fetch(process.env.OLLAMA_API_URL, {
             method: "POST",
             body: JSON.stringify({
@@ -85,6 +94,12 @@ async function callOllama(prompt) {
 
           const duration = Date.now() - startTime;
           span.setAttribute('llm.latency.time_ms', duration);
+          const responseTokenCount = countTokens(data.response);
+          llmOutputTokens.inc({ flow: "explanation_output" },responseTokenCount);
+          const cost = calculateCost(promptTokenCount, responseTokenCount);
+          llmCost.inc({ flow: "explanation" }, cost);
+          // llmLatency.inc(duration, { flow: "explanation" });
+          endTimer();
 
           return parseResponse(data.response);
         } catch (err) {
@@ -96,7 +111,6 @@ async function callOllama(prompt) {
         }
     });
 
-    //return await boundFn();
 }
 
 // ---------- Parser ----------

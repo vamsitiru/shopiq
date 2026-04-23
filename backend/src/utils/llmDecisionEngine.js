@@ -1,8 +1,14 @@
 import fetch from 'node-fetch';
 import { context, trace } from '@opentelemetry/api';
+import { countTokens , calculateCost } from "./tokenUtils.js";
+import {
+  llmInputTokens,
+  llmOutputTokens,
+  llmCost,
+  llmLatency
+} from "./llmPrometheusMetrics.js";
 
 const tracer = trace.getTracer("llm-decision-engine");
-
 
 const DEFAULT_CONFIG = {
   scoreThreshold: 0.7,       // trigger if scores are close
@@ -78,9 +84,14 @@ async function callOllama(prompt) {
       //const boundFn = context.bind(ctx, async () => {
           try {
             const startTime = Date.now();
+            // Jaeger attributes
             span.setAttribute('llm.type', "LLM Decision");
             span.setAttribute('llm.prompt.length', prompt.length);
             span.setAttribute('llm.model', 'ollama');
+            // Prometheus metrics
+            const promptTokenCount = countTokens(prompt);
+            const endTimer = llmLatency.startTimer({ flow: "decision" });
+            llmInputTokens.inc({ flow: "decision_input" },promptTokenCount);
 
             const response = await fetch(process.env.OLLAMA_API_URL, {
               method: "POST",
@@ -96,6 +107,12 @@ async function callOllama(prompt) {
             const duration = Date.now() - startTime;
             //span.setAttribute('llm.response.length', response.length);
             span.setAttribute('llm.latency.time_ms', duration);
+            const responseTokenCount = countTokens(data.response);
+            llmOutputTokens.inc({ flow: "decision_output" },responseTokenCount);
+            const cost = calculateCost(promptTokenCount, responseTokenCount);
+            llmCost.inc({ flow: "decision" }, cost);
+            //llmLatency.inc(duration, { flow: "decision" });
+            endTimer();
 
             return parseLLMResponse(data.response);
           } catch (err) {
