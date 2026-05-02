@@ -1,6 +1,6 @@
 TEST_WITH_EBAY_STUB=true
 EBAY_CLIENT_ID=VamsiSri-ShopIQ-PRD-e4c54106b-d60bc6ad
-EBAY_CLIENT_SECRET=PRD-4c54106b12ff-6c73-4123-ba5e-f663
+EBAY_CLIENT_SECRET=PRD-4c54106b12ff-6c73-4123-ba5e-f663vks
 EBAY_OAUTH_URL=https://api.ebay.com/identity/v1/oauth2/token
 EBAY_API_URL=https://api.ebay.com/buy/browse/v1/item_summary/search
 
