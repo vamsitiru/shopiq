@@ -13,6 +13,7 @@ services:
       - TEST_WITH_AMAZON_STUB=true
       - EBAY_OAUTH_URL=https://api.ebay.com/identity/v1/oauth2/token
       - EBAY_API_URL=https://api.ebay.com/buy/browse/v1/item_summary/search
+      # Also ensure adding 2 more environment variables - ebay c id and other
       - AMAZON_CANOPY_API_KEY=c50aa907-2f81-4cf0-9b79-5e8e299227d0
       - AMAZON_API_URL=https://rest.canopyapi.co/api/amazon/search
       - OLLAMA_API_URL=http://host.docker.internal:11434/api/generate
