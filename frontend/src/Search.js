@@ -9,8 +9,11 @@ function Search() {
   const [llmExplanation, setLlmExplanation] = useState(null);
 
   const handleSearch = async () => {
+    // Fallback to local API if environment variable is missing
+    const baseUrl = process.env.REACT_APP_BACKEND_URL || "http://localhost:8000/api/products/search";
+    
     try {
-      const response = await axios.get(`http://localhost:8000/api/products/search?q=${query}`);
+      const response = await axios.get(`${baseUrl}?q=${query}`);
       setProducts(response.data.ranked || []);
       setWinner(response.data.winner || null);
       setLlmExplanation(response.data.llmExplanation || null);

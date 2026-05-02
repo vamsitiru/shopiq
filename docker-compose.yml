@@ -1,0 +1,43 @@
+services:
+  backend:
+    build:
+      context: ./backend
+    container_name: backend
+    ports:
+      - "8000:8000"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    environment:
+      - NODE_ENV=production
+      - TEST_WITH_EBAY_STUB=true
+      - TEST_WITH_AMAZON_STUB=true
+      - EBAY_CLIENT_ID=VamsiSri-ShopIQ-PRD-e4c54106b-d60bc6ad
+      - EBAY_CLIENT_SECRET=PRD-4c54106b12ff-6c73-4123-ba5e-f663
+      - EBAY_OAUTH_URL=https://api.ebay.com/identity/v1/oauth2/token
+      - EBAY_API_URL=https://api.ebay.com/buy/browse/v1/item_summary/search
+      - AMAZON_CANOPY_API_KEY=c50aa907-2f81-4cf0-9b79-5e8e299227d0
+      - AMAZON_API_URL=https://rest.canopyapi.co/api/amazon/search
+      - OLLAMA_API_URL=http://host.docker.internal:11434/api/generate
+      - JAEGER_SERVICE_NAME=shopiq
+      - JAEGER_AGENT_URL=http://jaeger:4318/v1/traces
+    depends_on:
+      - jaeger
+
+  jaeger:
+    image: jaegertracing/all-in-one:latest
+    container_name: jaeger
+    ports:
+      - "16686:16686" # UI
+      - "4317:4317"  # OTLP http
+      - "4318:4318"  # OTLP http
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        - REACT_APP_BACKEND_URL=http://localhost:8000/api/products/search
+    container_name: frontend
+    ports:
+      - "3005:80"
+    depends_on:
+      - backend
